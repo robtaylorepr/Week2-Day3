@@ -74,3 +74,4 @@ begin
   game.winner ? (puts "Winner is #{game.winner}") : (puts "Draw")
   s = "Would you like a rematch (y/n)?"
 end until prompt.ask(s)=='n'
+puts "Thanks for playing"
